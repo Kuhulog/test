@@ -1,0 +1,112 @@
+header {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+
+
+header ul {
+    color :white;
+    line-height: 50px;
+    font-size:17px;
+    list-style:none;
+
+    
+}
+
+header ul li {
+    padding: 5px 25px;
+    float:left;
+}
+
+main {
+    clear:both;
+}
+
+main .left{
+    float: left;
+    width: 68%;
+    
+}
+
+main .left h2.main_title{
+    border-left:5px solid black;
+    border-bottom:2px solid gray;
+    padding-left: 5px
+    
+    
+}
+
+
+main .left img {
+    width: 100%;
+}
+
+main .left .pictures {
+    clear:left;
+    background-color:lightgrey;
+    text-align:center; 
+    height:460px;
+    
+}
+
+main .left .pictures .box1 {
+    width: 22.5%;
+    height:200px;
+    display: inline-block;
+    margin-top: 30px; 
+    padding-right: 13px;
+
+}
+
+main .left .pictures .box2 {
+    width: 22.5%;
+    height:200px;
+    display: inline-block;
+    margin-top: 10px; 
+    padding-right: 13px; 
+ 
+}
+
+
+main .left .pictures p{
+    margin-top: -1px;
+}
+
+main .right{
+    width:30%;
+    float:left;
+    margin-top: 7px;
+}
+
+main .right .black{
+    border-bottom: 2px dotted black; 
+    margin-left: 30px;
+}
+
+main .right .gray{
+    border-bottom: 2px dotted gray; 
+    margin-left: 30px;
+}
+
+
+
+main .right ul li{
+    list-style: none;
+    
+}
+
+.white{
+    height:50px;
+}
+
+footer{
+    clear: left;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
